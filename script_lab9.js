@@ -17,7 +17,7 @@ function z2(){
 	console.log('Zadacha 2')
 	function arrayCut(arr) {
 		for (let i = 0; i <= arr.length; i++) {
-			console.log(arr.length,"Осталось",arr,'  i-',i);
+			console.log(arr.length, arr,'  i-',i);
         arr.pop();
 		}
 	}
